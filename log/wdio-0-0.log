@@ -1,0 +1,26 @@
+2019-07-16T14:42:06.880Z INFO @wdio/local-runner: Run worker command: run
+2019-07-16T14:42:07.077Z INFO webdriver: [POST] http://127.0.0.1:9515/session
+2019-07-16T14:42:07.077Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: { browserName: 'chrome', 'goog:chromeOptions': [Object] },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: { browserName: 'chrome', 'goog:chromeOptions': { args: [Array] } }
+}
+2019-07-16T14:42:07.706Z INFO @wdio/devtools-service:DevToolsDriver: Connect to http://localhost:37989
+2019-07-16T14:42:07.734Z INFO @wdio/devtools-service: Connected to Chrome on localhost:37989
+2019-07-16T14:42:07.742Z INFO webdriver: COMMAND navigateTo("https://loader.io/")
+2019-07-16T14:42:07.742Z INFO webdriver: [POST] http://127.0.0.1:9515/session/8db69cfc48f5297dd884778fb2ccc514/url
+2019-07-16T14:42:07.742Z INFO webdriver: DATA { url: 'https://loader.io/' }
+2019-07-16T14:42:08.633Z INFO @wdio/devtools-service:TraceGatherer: Page load detected: https://loader.io/, set frameId 6DB4495CF6844CBC4FEA1628F7D46BB8, set loaderId CE0038E16DC50AC23BABB7B905686474
+2019-07-16T14:42:09.794Z INFO @wdio/devtools-service:TraceGatherer: Ignore navigated frame with url about:blank
+2019-07-16T14:42:11.788Z INFO webdriver: COMMAND navigateTo("https://loader.io/")
+2019-07-16T14:42:11.789Z INFO webdriver: [POST] http://127.0.0.1:9515/session/8db69cfc48f5297dd884778fb2ccc514/url
+2019-07-16T14:42:11.789Z INFO webdriver: DATA { url: 'https://loader.io/' }
+2019-07-16T14:42:12.126Z INFO @wdio/devtools-service:TraceGatherer: Ignore navigated frame with url about:blank
+2019-07-16T14:42:13.091Z INFO webdriver: COMMAND navigateTo("https://loader.io/")
+2019-07-16T14:42:13.093Z INFO webdriver: [POST] http://127.0.0.1:9515/session/8db69cfc48f5297dd884778fb2ccc514/url
+2019-07-16T14:42:13.093Z INFO webdriver: DATA { url: 'https://loader.io/' }
+2019-07-16T14:42:13.518Z INFO @wdio/devtools-service:TraceGatherer: Ignore navigated frame with url about:blank
+2019-07-16T14:42:17.474Z INFO webdriver: COMMAND deleteSession()
+2019-07-16T14:42:17.476Z INFO webdriver: [DELETE] http://127.0.0.1:9515/session/8db69cfc48f5297dd884778fb2ccc514
